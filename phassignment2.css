@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.orange{
+    color: rgb(254, 163, 1);
+}
+.sky{
+    color:rgb(1, 172, 253);
+}
+.green{
+    color: rgb(5, 212, 223);
+}
+.blue{
+    color: rgb(93, 88, 239);
+}
+html{
+    background: url("assets/bg.png");
+    background-position: center;
+    position: static;
+
+}
+nav{
+    margin: 10px auto;
+    height:62px;
+    width:1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav h1{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    /*font*/
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+nav button{
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border-radius: 12px;
+    border: 0px;
+    background: rgb(254, 163, 1);
+}
+
+.section1{
+    width: 1158.61px;
+    height: 575px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 h1{
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+}
+.section1 p{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.section1 button{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
