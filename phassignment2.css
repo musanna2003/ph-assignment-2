@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .orange{
     color: rgb(254, 163, 1);
@@ -12,12 +13,10 @@
 .blue{
     color: rgb(93, 88, 239);
 }
-html{
-    background: url("assets/bg.png");
-    background-position: center;
-    position: static;
-
+.purple{
+    color: rgb(135, 0, 255);
 }
+
 nav{
     margin: 10px auto;
     height:62px;
@@ -54,7 +53,6 @@ nav ul{
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0%;
-
 }
 nav button{
     width: 197px;
@@ -105,3 +103,96 @@ nav button{
     line-height: 30px;
     letter-spacing: 0%;
 }
+
+.section2{
+    height: 880px;
+    width: auto;
+    margin: 40px auto;
+    background: url("assets/bg.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.section2 h1{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section2-cards{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28.29px;
+}
+.section2_card{
+    width: 367.8px;
+    height: 476.78px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section2_card h2{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+}
+.section2_card p{
+    width: 290px;
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+}
+.crd1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.crd2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.crd3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.section2_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.section2_icon h1{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+ 
